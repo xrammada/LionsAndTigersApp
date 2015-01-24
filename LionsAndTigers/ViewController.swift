@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
     @IBOutlet weak var breedLabel: UILabel!
+    @IBOutlet weak var FactLabel: UILabel!
     
     var myTigers:[Tiger] = []
     var currentIndex = 0
@@ -27,8 +28,10 @@ class ViewController: UIViewController {
         myTiger.age = 3
         myTiger.image = UIImage(named: "BengalTiger.jpg")
         
-        myTiger.chuff()
+        myTiger.age = myTiger.ageInTigerYearsFromAge(myTiger.age)
         
+        myTiger.chuff()
+        myTiger.chuffANumberOfTimes(5, isLoud: true)
         myTigers.append(myTiger)
         
         println("My Tiger's name is: \(myTiger.name), its age is: \(myTiger.age), its breed is: \(myTiger.breed), its image is: \(myTiger.image)")
@@ -44,17 +47,24 @@ class ViewController: UIViewController {
         secondTiger.age = 2
         secondTiger.image = UIImage(named: "IndochineseTiger.jpg")
         
+        secondTiger.age = secondTiger.ageInTigerYearsFromAge(secondTiger.age)
+        
+        
         var thirdTiger = Tiger()
         thirdTiger.name = "Jacob"
         thirdTiger.breed = "Malayan Tiger"
         thirdTiger.age = 4
         thirdTiger.image = UIImage(named: "MalayanTiger.jpg")
         
+        thirdTiger.age = thirdTiger.ageInTigerYearsFromAge(thirdTiger.age)
+        
         var fourthTiger = Tiger()
         fourthTiger.name = "Spar"
         fourthTiger.breed = "Siberian Tiger"
         fourthTiger.age = 5
         fourthTiger.image = UIImage(named:"SiberianTiger.jpg")
+        fourthTiger.age = fourthTiger.ageInTigerYearsFromAge(fourthTiger.age)
+        
         
         self.myTigers += [secondTiger, thirdTiger, fourthTiger]
         
