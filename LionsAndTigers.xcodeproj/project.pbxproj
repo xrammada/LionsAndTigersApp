@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660B638F1A753AEA00B13E29 /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660B638E1A753AEA00B13E29 /* Lion.swift */; };
 		6665A9CD1A33890B001E656C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6665A9CC1A33890B001E656C /* AppDelegate.swift */; };
 		6665A9CF1A33890B001E656C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6665A9CE1A33890B001E656C /* ViewController.swift */; };
 		6665A9D21A33890B001E656C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6665A9D01A33890B001E656C /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		6665AA0C1A339656001E656C /* Lioness.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6665AA041A339656001E656C /* Lioness.jpeg */; };
 		6665AA0D1A339656001E656C /* MalayanTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6665AA051A339656001E656C /* MalayanTiger.jpg */; };
 		6665AA0E1A339656001E656C /* SiberianTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6665AA061A339656001E656C /* SiberianTiger.jpg */; };
+		669DA42C1A7D0A2100FC9600 /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DA42B1A7D0A2100FC9600 /* LionCub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		660B638E1A753AEA00B13E29 /* Lion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
 		6665A9C71A33890B001E656C /* LionsAndTigers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionsAndTigers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6665A9CB1A33890B001E656C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6665A9CC1A33890B001E656C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		6665AA041A339656001E656C /* Lioness.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lioness.jpeg; sourceTree = "<group>"; };
 		6665AA051A339656001E656C /* MalayanTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MalayanTiger.jpg; sourceTree = "<group>"; };
 		6665AA061A339656001E656C /* SiberianTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SiberianTiger.jpg; sourceTree = "<group>"; };
+		669DA42B1A7D0A2100FC9600 /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				6665A9CC1A33890B001E656C /* AppDelegate.swift */,
 				6665A9CE1A33890B001E656C /* ViewController.swift */,
 				6665A9EC1A339332001E656C /* Tiger.swift */,
+				669DA42B1A7D0A2100FC9600 /* LionCub.swift */,
+				660B638E1A753AEA00B13E29 /* Lion.swift */,
 				6665A9D01A33890B001E656C /* Main.storyboard */,
 				6665A9D31A33890B001E656C /* Images.xcassets */,
 				6665A9D51A33890B001E656C /* LaunchScreen.xib */,
@@ -258,6 +264,8 @@
 				6665A9CF1A33890B001E656C /* ViewController.swift in Sources */,
 				6665A9ED1A339332001E656C /* Tiger.swift in Sources */,
 				6665A9CD1A33890B001E656C /* AppDelegate.swift in Sources */,
+				669DA42C1A7D0A2100FC9600 /* LionCub.swift in Sources */,
+				660B638F1A753AEA00B13E29 /* Lion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +459,7 @@
 				6665A9E81A33890B001E656C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6665A9E91A33890B001E656C /* Build configuration list for PBXNativeTarget "LionsAndTigersTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +468,7 @@
 				6665A9EB1A33890B001E656C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
